@@ -1,0 +1,48 @@
+@import "../../style.scss";
+
+.carousel {
+    &.carousel-slider {
+      overflow: visible;
+    }
+    .dot {
+      background-color: $primary-color !important;
+      opacity: 1 !important;
+      outline: none !important;
+      &.selected {
+        width: 36px;
+
+        border-radius: $radius-rounded;
+      }
+    }
+
+    @media screen and (min-width: $tablet) {
+      .control-dots {
+        position: absolute;
+        bottom: -50px;
+        text-align: right;
+        margin: 10px 0;
+        padding: 0;
+        width: 100%;
+
+      }
+      .container {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+    }
+
+    @media screen and (max-width: $tablet - 1px) {
+      .control-dots {
+        display: none !important;
+      }
+    }
+
+    .container {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+
+    .slide {
+      background-color: hsl(0, 0%, 96%);
+    }
+  }

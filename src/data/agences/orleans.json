@@ -1,0 +1,63 @@
+{
+    "id": "orleans",
+    "name": "Agence Orléans",
+    "street": "19, Route de ce que je veux",
+    "street2": "",
+    "zipcode": 16000,
+    "city": "Orléans",
+    "coordinates": [
+        1.966876,
+        47.852761
+    ],
+    "url": "/orleans",
+    "phone": "05 XX XX XX XX",
+    "thumbnail": "/images/cities/orleans.jpg",
+    "organisation": [
+        {
+            "label": "La team dev",
+            "users": [
+                {
+                    "name": "Valjean",
+                    "firstname": "Jean",
+                    "position": "Manager",
+                    "phone": "05 45 XX XX XX",
+                    "mobile": "",
+                    "url": "/images/users/orleans/pexels-emmy-e-2381069.jpg",
+                    "email": "valjean@agency.fake.fr"
+                },
+                {
+                    "name": "Malou",
+                    "firstname": "Eddy",
+                    "position": "Savant",
+                    "phone": "05 45 XX XX XX",
+                    "mobile": "",
+                    "url": "/images/users/orleans/pexels-mentatdgt-937481.jpg",
+                    "email": "eddy@agency.fake.fr"
+                }
+            ]
+        },
+        {
+            "label": "La team commerciale",
+            "users": [
+                {
+                    "name": "Scrooge",
+                    "firstname": "McDuck",
+                    "position": "Multi-Milliardaire",
+                    "phone": "09 XX XX XX",
+                    "mobile": "",
+                    "url": "/images/users/orleans/pexels-mentatdgt-937483.jpg",
+                    "email": "picsou@agency.fake.fr"
+                },
+                {
+                    "name": "Ma",
+                    "firstname": "Jack",
+                    "position": "Prison",
+                    "phone": "09 XX XX XX XX",
+                    "mobile": "",
+                    "url": "/images/users/orleans/pexels-mentatdgt-937481.jpg",
+                    "email": "jackma@agency.fake.fr"
+                }
+            ]
+        }
+    ]
+}

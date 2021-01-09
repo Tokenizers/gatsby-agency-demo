@@ -1,0 +1,11 @@
+@import "../style.scss";
+
+[data-component="hero"] {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}

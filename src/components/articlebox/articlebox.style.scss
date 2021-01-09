@@ -1,0 +1,36 @@
+@import "../style.scss";
+
+[data-component="articlebox"] {
+  
+  min-height: 280px !important;
+  &.box {
+    position: relative;
+    box-shadow: none;
+  }
+
+  .image-wrapper{
+    height:25px;
+    width:50px;
+    vertical-align: center;
+    margin-bottom:2rem;
+  }
+
+  .box-top {
+    min-height: 200px;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  .article-link a{
+    color:$black;
+    text-decoration: none;
+    border-bottom: 1px solid $black;
+    padding-bottom: 3px;
+  }
+}

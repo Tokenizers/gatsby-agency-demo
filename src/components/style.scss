@@ -1,0 +1,80 @@
+// Importing variables
+@import "./variables.scss";
+
+// Importing Bulma from node_modules
+@import "~bulma/bulma.sass";
+
+.section__nav,
+.section__nav .navbar {
+  background-color: $map_theme_color !important;
+}
+
+svg path {
+  fill: #fff;
+}
+
+.btn__map {
+  background-color: $map_theme_color;
+  border: 0px;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Page agence */
+
+.bg__img__angouleme {
+  background-image: url("/images/bg/angouleme.jpg");
+}
+
+.bg__img__paris {
+  background-image: url("/images/bg/paris.jpg");
+}
+
+.bg__img__orleans {
+  background-image: url("/images/bg/orleans.jpg");
+}
+
+
+.bg__img {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #999;
+  min-height: 600px;
+}
+
+.bg__img .hero-body {
+  display: flex;
+  align-items: flex-end;
+}
+
+.bg__img .hero-body .container {
+  text-shadow: 2px 2px 4px #0000009c;
+}
+
+.img__employees {
+  max-width: 277px;
+  border-radius: 10px;
+}
+.img__employee {
+  border-radius: 10px;
+}
+
+.logo-blanc {
+  max-width: 130px;
+}
+
+.reverse-columns {
+  @include tablet{
+    flex-direction: row-reverse;
+    display: flex;
+  }
+
+}
+
+.active{
+  color:red;
+  font-weight: 600;
+}

@@ -1,0 +1,17 @@
+@import "../style.scss";
+
+[data-component="navbar"] {
+  .button{
+    padding: 18px 20px;
+    border: none;
+    cursor:pointer !important;
+    &:hover{
+      a{
+        color:#000;
+      }
+    }
+    a{
+      color:$map_theme_color;
+    }
+  }
+}

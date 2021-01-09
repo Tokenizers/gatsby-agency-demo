@@ -1,0 +1,13 @@
+@import "../style.scss";
+
+[data-component="modal"] {
+  .modal-background {
+    cursor: pointer;
+  }
+
+  .modal-content {
+    :nth-child(3) {
+      margin-top: 0.5rem;
+    }
+  }
+}
