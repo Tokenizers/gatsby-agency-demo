@@ -17,14 +17,14 @@ You need npm and Gatsby CLI installed on your development machine.
 
 If you have Git installed on your system you can run the following command:
 
-`git clone https://github.com/Tokenizers/gatsby-image-example`
+`git clone https://github.com/Tokenizers/gatsby-agency-demo`
 
 Otherwise you can directly download it clicking on download button on this repository.
 
 
 ### 2. Set the configuration
 
-Go inside `agency/` and create the .env file base on env.dist file and fill the Mapbox key.
+Go inside `gatsby-agency-demo/` and create the .env file base on env.dist file and fill the Mapbox key.
 
 `cp .env.dist .env`
 
@@ -39,5 +39,5 @@ Go inside `agency/` directory and run the following command:
 The site is now running at
 [http://localhost:8000](http://localhost:8000).
 
-Open `agency/` directory in your code editor of choice and edit it. Save your changes and the browser will update them in real time!
+Open `gatsby-agency-demo/` directory in your code editor of choice and edit it. Save your changes and the browser will update them in real time!
 
